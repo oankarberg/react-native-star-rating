@@ -119,8 +119,8 @@ StarRating.propTypes = {
   starColor: PropTypes.string,
   emptyStarColor: PropTypes.string,
   starSize: PropTypes.number,
-  starStyle: ViewPropTypes.style,
-  buttonStyle: ViewPropTypes.style,
+  starStyle: View.propTypes.style,
+  buttonStyle: View.propTypes.style,
   halfStarEnabled: PropTypes.bool,
   reversed: PropTypes.bool,
 };
